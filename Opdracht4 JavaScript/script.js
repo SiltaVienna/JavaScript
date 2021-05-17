@@ -12,16 +12,22 @@ if (age >= 18 && age <= 25) {
     console.log ("Je krijgt geen korting.")
 }
 
-const firstName = Bram;
+const firstName = "Bram";
 
-if (firstName = Bram || firstName = Sarah) {
+if (firstName === "Bram" || firstName === "Sarah") {
     console.log ("Bram krijgt een gratis biertje!");
 } else {
     console.log ("Jij krijgt geen gratis biertje");
 }
 
-const totalAmount = 25;
+const totalAmount = 7;
 
-if (totalAmount >25 || totalAmount >50) {
-    console.log 
-}
+ if (totalAmount >=100) {
+    console.log ("Gratis flessie champagne!");
+} else if (totalAmount >50) {
+    console.log ("Gratis nachos!"); 
+} else if (totalAmount >25){
+        console.log ("Gratis bitterballuhhh");
+} else {
+    console.log ("Geen extra's voor jou")
+}       
