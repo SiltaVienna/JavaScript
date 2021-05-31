@@ -1,0 +1,118 @@
+body { 
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hamburger {
+    cursor: pointer;
+    background-color: orange;
+}
+
+.hamburger:hover {
+    opacity: 0.5;
+}
+
+/* ul {
+    transition: all 2s ease-in-out;
+} */
+
+.ul-menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    width: 300px;
+    line-height: 50px;
+    visibility: hidden;
+}
+
+ .visible {
+    visibility: visible;
+}
+
+/*Menu */
+.home,
+.red, 
+.blue,
+.green {
+    color: #000;
+    padding-left: 10px;
+}
+
+.home {
+    border: solid 5px rgb(127, 197, 162);
+    margin-bottom: 10px;
+}
+
+.red {
+    border: solid 5px red;
+    margin-bottom: 10px;
+}
+
+.blue {
+    border: solid 5px blue;
+    margin-bottom: 10px;
+}
+
+.green {
+    border: solid 5px green;
+    margin-bottom: 10px;
+}
+
+.home:hover {
+    background-color: rgb(127, 197, 162);
+    color: white;
+    cursor: pointer;
+}
+
+.red:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.blue:hover {
+    background-color: blue;
+    color: white;
+}
+
+.green:hover {
+    background-color: green;
+    color: white;
+}
+
+/*Background colors*/
+.home-background {
+    background-color: rgb(127, 197, 162);
+}
+
+.red-background {
+    background-color: red;
+}
+
+.blue-background {
+    background-color: blue;
+}
+
+.green-background {
+    background-color: green;
+}
+
+/* Text background */
+
+
+.text-background {
+    font-size: 20px;
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+}
+
+/* Radiobutton */
+
+.radio {
+    cursor: pointer;
+}
+
+.radio:hover input ~ .checkmark {
+    background-color: #ccc;
+}
